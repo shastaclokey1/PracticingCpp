@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  PizzzzzzzaPieUsingClassesAndStructs.cpp
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\pizzzzzzzapieusingclassesandstructs\pizzzzzzzapieusingclassesandstructs\pizzzzzzzapieusingclassesandstructs.cpp(263): warning C4101: 'orderPrice': unreferenced local variable
+  PizzzzzzzaPieUsingClassesAndStructs.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\PizzzzzzzaPieUsingClassesAndStructs\Debug\PizzzzzzzaPieUsingClassesAndStructs.exe
+  PizzzzzzzaPieUsingClassesAndStructs.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\PizzzzzzzaPieUsingClassesAndStructs\Debug\PizzzzzzzaPieUsingClassesAndStructs.pdb (Partial PDB)
