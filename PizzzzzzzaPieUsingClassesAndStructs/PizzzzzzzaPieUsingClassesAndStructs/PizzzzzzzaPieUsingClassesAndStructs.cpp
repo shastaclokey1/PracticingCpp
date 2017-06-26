@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
 
@@ -19,6 +20,8 @@ enum possiblePizzaSizes { small, medium, large, xlarge };
 class pizza
 {
 public:
+	pizza();
+
 	//accessor and mutator functions
 	typesOfPizza getTypeOfPizza();
 	void setTypeOfPizza(typesOfPizza typeToSet);
@@ -47,8 +50,13 @@ private:
 	static const int MAX_NUM_TOPPINGS = 5;
 	pizzaToppings toppingsOnPizza[MAX_NUM_TOPPINGS];
 	possiblePizzaSizes pizzaSize;
+	const string typesOfPizzeLookUp[3] = { "Dish", "Tossed", "Pan" };
+	const string pizzaToppingsLookUp[5] = { "peperoni", "sausage", "canadianBacon", "onions", "mushrooms" };
+	const string possiblePizzaSizesLookUp[4] = { "small", "meduim", "large", "xlarge" };
 };
 
+pizza::pizza()
+{}
 
 typesOfPizza pizza::getTypeOfPizza()
 {
@@ -103,14 +111,14 @@ void pizza::setPizzaSize(possiblePizzaSizes pizzaSizeToSet)
 void pizza::printOrderDescription()
 {
 	cout << "Your Pizza order: \n";
-	cout << pizzaType << endl << numberOfToppings << " toppings" << endl;
+	cout << typesOfPizzeLookUp[pizzaType] << endl << numberOfToppings << " toppings" << endl;
 	cout << "Toppings on pizza: ";
 	for (int i = 0; i < numberOfToppings; i++)
 	{
-		cout << toppingsOnPizza[i] << ", ";
+		cout << pizzaToppingsLookUp[toppingsOnPizza[i]] << ", ";
 	}
 	cout << endl;
-	cout << pizzaSize;
+	cout << possiblePizzaSizesLookUp[pizzaSize];
 	return;
 }
 
@@ -143,7 +151,7 @@ double pizza::computePrice()
 
 
 
-pizza askForOrder();
+void askForOrder(pizza &tgt);
 //precondition: customer is hungry for pizza and has money
 //postcondition: lets the user choose the kind of pizza they want and creates an object for that pizza
 
@@ -155,12 +163,13 @@ int main()
 {
 	bool keepOrdering = true;
 	char keepOrderingAnswer;
-	pizza pizzaBeingOrdered;
+	pizza pizzaBeingOrdered = pizza();
 
 	while (keepOrdering == true)
 	{
-		pizzaBeingOrdered = askForOrder();
-		displayOrderDetails(pizzaBeingOrdered);
+		askForOrder(pizzaBeingOrdered);
+		//displayOrderDetails(pizzaBeingOrdered);
+		pizzaBeingOrdered.printOrderDescription();
 		cout << "Care for another Pizza? (y/n): ";
 		cin >> keepOrderingAnswer;
 		if (keepOrderingAnswer == 'n' || keepOrderingAnswer == 'N')
@@ -170,21 +179,18 @@ int main()
 	return 0;
 }
 
-pizza askForOrder()
+void askForOrder(pizza &tgt)
 {
-	pizza pizzaOrder;
-
-
 	char pizzaType;
 	cout << "Please enter the first letter of the type of pizza you would like (Dish, Tossed, or Pan): ";
 	cin >> pizzaType;
 	cout << endl;
 	if (pizzaType == 'D' || pizzaType == 'd')
-		pizzaOrder.setTypeOfPizza(Dish);
+		tgt.setTypeOfPizza(Dish);
 	else if (pizzaType == 'T' || pizzaType == 't')
-		pizzaOrder.setTypeOfPizza(Tossed);
+		tgt.setTypeOfPizza(Tossed);
 	else if (pizzaType == 'P' || 'p')
-		pizzaOrder.setTypeOfPizza(Pan);
+		tgt.setTypeOfPizza(Pan);
 	else
 	{
 		cout << "Smooth move xlax. You fucked up buying pizza";
@@ -201,7 +207,7 @@ pizza askForOrder()
 		cout << "Nice Try Fatty";
 		exit(1);
 	}
-	pizzaOrder.setNumberOfToppings(numToppings);
+	tgt.setNumberOfToppings(numToppings);
 
 
 	pizzaToppings toppings[30];
@@ -228,7 +234,7 @@ pizza askForOrder()
 		}
 
 	}
-	pizzaOrder.setToppingsOnPizza(toppings, numToppings);
+	tgt.setToppingsOnPizza(toppings, numToppings);
 
 
 	possiblePizzaSizes size;
@@ -249,9 +255,9 @@ pizza askForOrder()
 		cout << "Not A valid pizza size. Exiting.";
 		exit(1);
 	}
-	pizzaOrder.setPizzaSize(size);
+	tgt.setPizzaSize(size);
 
-	return pizzaOrder;
+	//return pizzaOrder;
 }
 
 void displayOrderDetails(pizza orderedPizza)
