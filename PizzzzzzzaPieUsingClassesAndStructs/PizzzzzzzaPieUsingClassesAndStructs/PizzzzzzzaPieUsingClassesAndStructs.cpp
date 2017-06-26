@@ -7,12 +7,6 @@
 using namespace std;
 
 
-
-
-
-
-
-
 enum typesOfPizza { Dish, Tossed, Pan };
 enum pizzaToppings { peperoni, sausage, canadianBacon, onions, mushrooms };
 enum possiblePizzaSizes { small, medium, large, xlarge };
@@ -40,10 +34,6 @@ public:
 	//preconditions: all variables have been set by user(all choices have been filled out for pizza)
 	//postconditions: all qualities of pizza order are printed to the console
 
-	double computePrice();
-	//preconditions: all variables have been set by user(all choices have been filled out for pizza)
-	//postcondition: takes into account number of toppings and size so to output the correct price
-
 private:
 	typesOfPizza pizzaType;
 	int numberOfToppings;
@@ -53,6 +43,10 @@ private:
 	const string typesOfPizzeLookUp[3] = { "Dish", "Tossed", "Pan" };
 	const string pizzaToppingsLookUp[5] = { "peperoni", "sausage", "canadianBacon", "onions", "mushrooms" };
 	const string possiblePizzaSizesLookUp[4] = { "small", "meduim", "large", "xlarge" };
+	
+	double computePrice();
+	//preconditions: all variables have been set by user(all choices have been filled out for pizza)
+	//postcondition: takes into account number of toppings and size so to output the correct price
 };
 
 pizza::pizza()
@@ -119,6 +113,8 @@ void pizza::printOrderDescription()
 	}
 	cout << endl;
 	cout << possiblePizzaSizesLookUp[pizzaSize];
+	cout << endl;
+	cout << "Your order total: $" << computePrice() <<  endl;
 	return;
 }
 
@@ -147,17 +143,11 @@ double pizza::computePrice()
 	}
 }
 
-
-
-
+////////////////////////////////////////////////// class above, test below /////////////////////////////////////////////////////////////////////////////////////
 
 void askForOrder(pizza &tgt);
 //precondition: customer is hungry for pizza and has money
 //postcondition: lets the user choose the kind of pizza they want and creates an object for that pizza
-
-void displayOrderDetails(pizza orderedPizza);
-//precondition: customer has input information for the pizza they wish to order
-//postcondition: prints out the "reciept" for the pizza order
 
 int main()
 {
@@ -168,7 +158,6 @@ int main()
 	while (keepOrdering == true)
 	{
 		askForOrder(pizzaBeingOrdered);
-		//displayOrderDetails(pizzaBeingOrdered);
 		pizzaBeingOrdered.printOrderDescription();
 		cout << "Care for another Pizza? (y/n): ";
 		cin >> keepOrderingAnswer;
@@ -199,7 +188,7 @@ void askForOrder(pizza &tgt)
 
 
 	int numToppings;
-	cout << "Please enter the number of toppings you would like on your pizza(max of 5): ";
+	cout << "Please enter the number of toppings you would like on your pizza(max of 5| $2 per topping): ";
 	cin >> numToppings;
 	cout << endl;
 	if (numToppings > 5)
@@ -239,7 +228,7 @@ void askForOrder(pizza &tgt)
 
 	possiblePizzaSizes size;
 	char sizeAnswer;
-	cout << "What size pizza would you like? (s, m, l, x): ";
+	cout << "What size pizza would you like? (s $10, m $14, l $17, x $20): ";
 	cin >> sizeAnswer;
 	cout << endl;
 	if (sizeAnswer == 's' || sizeAnswer == 'S')
@@ -257,38 +246,4 @@ void askForOrder(pizza &tgt)
 	}
 	tgt.setPizzaSize(size);
 
-	//return pizzaOrder;
 }
-
-void displayOrderDetails(pizza orderedPizza)
-{
-	typesOfPizza pizzaType;
-	int numToppings;
-    pizzaToppings ToppingsOnPizza[30];
-	possiblePizzaSizes pizzaSize;
-	double orderPrice;
-
-	pizzaType = orderedPizza.getTypeOfPizza();
-	numToppings = orderedPizza.getNumberOfToppings();
-	pizzaSize = orderedPizza.getPizzaSize();
-	orderedPizza.getToppingsOnPizza(ToppingsOnPizza, numToppings);
-
-	cout << "Your order: \n";
-	cout << "One " << pizzaSize << ", " << pizzaType << " pizza with "; 
-
-
-	for (int i = 0; i < numToppings - 1; i++)
-	{
-		cout << ToppingsOnPizza[i] << ", ";
-	}
-	
-
-	cout << " and " << ToppingsOnPizza[numToppings - 1] << " comming right up! \n";
-	cout.setf(ios::fixed);
-	cout.setf(ios::showpoint);
-	cout.precision(2);
-	cout << "Your bill: $" << orderedPizza.computePrice() << endl;
-
-	return;
-}
-

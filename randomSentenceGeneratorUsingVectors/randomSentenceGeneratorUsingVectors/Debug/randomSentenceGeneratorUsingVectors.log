@@ -1,0 +1,7 @@
+﻿  randomSentenceGeneratorUsingVectors.cpp
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors.cpp(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors\randomsentencegeneratorusingvectors.cpp(110): warning C4018: '<': signed/unsigned mismatch
+  randomSentenceGeneratorUsingVectors.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\randomSentenceGeneratorUsingVectors\Debug\randomSentenceGeneratorUsingVectors.exe
+  randomSentenceGeneratorUsingVectors.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\randomSentenceGeneratorUsingVectors\Debug\randomSentenceGeneratorUsingVectors.pdb (Partial PDB)
