@@ -138,12 +138,22 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Balrog.h" />
     <ClInclude Include="creature.h" />
+    <ClInclude Include="CyberDemon.h" />
+    <ClInclude Include="Demon.h" />
+    <ClInclude Include="Elf.h" />
+    <ClInclude Include="Human.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Balrog.cpp" />
     <ClCompile Include="creature.cpp" />
+    <ClCompile Include="CyberDemon.cpp" />
+    <ClCompile Include="Demon.cpp" />
+    <ClCompile Include="Elf.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="rpgUsingClassesAndVirtualStuff.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
