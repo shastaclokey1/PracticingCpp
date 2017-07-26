@@ -4,7 +4,13 @@
 #include "stdafx.h"
 #include <winsock2.h>
 #include <iostream>
+#include <string>
+#include <cstring>
 #pragma comment(lib,"WS2_32")
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
 
 #define NETWORK_ERROR -1
 #define NETWORK_OK 0
@@ -85,8 +91,38 @@ int main()
 
 	
 	//send messages and what not
-	//send()
+	char dataBuff[20];
+	bool keepSending = true;
+	unsigned int tempMsgStore;
+	while (keepSending)
+	{
+		ZeroMemory(dataBuff, 20);
+		cout << "Enter 5 bytes to send: " << endl;
+		for (int i = 0; i < 5; i++)
+		{
+			cout << "Byte #" << i << ": ";
+			cin >> tempMsgStore;
+			dataBuff[i] = static_cast<unsigned char>(tempMsgStore);
+			cout << endl;
+		}
+		nret = send(theClient, dataBuff, 5 + 1, 0);
+		if (nret == SOCKET_ERROR)
+		{
+			nret = WSAGetLastError();
+			reportError(nret, "send()");
 
+			closesocket(theClient);
+			closesocket(listeningSocket);
+			WSACleanup();
+			return NETWORK_ERROR;
+		}
+		cout << "Send another message?(y/n): ";
+		char yOrN;
+		cin >> yOrN;
+		if (yOrN == 'n' || yOrN == 'N')
+			keepSending = false;
+		cout << endl;
+	}
 
 	closesocket(theClient);
 	closesocket(listeningSocket);

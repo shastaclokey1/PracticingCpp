@@ -6,6 +6,9 @@
 #include <iostream>
 #include <cstdlib>
 #pragma comment(lib,"WS2_32")
+using std::cout;
+using std::cin;
+using std::endl;
 
 #define NETWORK_ERROR -1
 #define NETWORK_OK 0
@@ -67,9 +70,35 @@ int main()
 		return NETWORK_ERROR;
 	}
 
-	//send messages and what not
+	//recieve messages and what not
+	char dataBuff[256];
+	while (nret != SOCKET_ERROR)
+	{
+		nret = recv(theSocket, dataBuff, 5 + 1, 0);
+		if (nret == SOCKET_ERROR)
+		{
+			nret = WSAGetLastError();
+			reportError(nret, "recv()");
 
-	
+			closesocket(theSocket);
+			WSACleanup();
+			return NETWORK_ERROR;
+		}
+		//error check in case the server is sending wonky packets
+		if (nret != (5 + 1))
+		{
+			closesocket(theSocket);
+			WSACleanup();
+			return NETWORK_ERROR;
+		}
+		cout << "Data Packet: ";
+		for (int i = 0; i < strlen(dataBuff); i++)
+		{
+			cout << (unsigned int)(unsigned char)dataBuff[i] << " ";
+		}
+		cout << endl;
+	}
+
 	closesocket(theSocket);
 	WSACleanup();
 	return NETWORK_OK;

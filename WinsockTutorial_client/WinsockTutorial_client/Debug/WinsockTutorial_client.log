@@ -1,7 +1,8 @@
 ﻿  WinsockTutorial_client.cpp
-c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\winsocktutorial_client\winsocktutorial_client\winsocktutorial_client.cpp(29): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\winsocktutorial_client\winsocktutorial_client\winsocktutorial_client.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\winsocktutorial_client\winsocktutorial_client\winsocktutorial_client.cpp(32): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
-c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\winsocktutorial_client\winsocktutorial_client\winsocktutorial_client.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\shasta\documents\repositories\practicing cpp\practicingcpp\winsocktutorial_client\winsocktutorial_client\winsocktutorial_client.cpp(113): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
   WinsockTutorial_client.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\WinsockTutorial_client\Debug\WinsockTutorial_client.exe
   WinsockTutorial_client.vcxproj -> C:\Users\Shasta\Documents\Repositories\Practicing Cpp\PracticingCpp\WinsockTutorial_client\Debug\WinsockTutorial_client.pdb (Partial PDB)
