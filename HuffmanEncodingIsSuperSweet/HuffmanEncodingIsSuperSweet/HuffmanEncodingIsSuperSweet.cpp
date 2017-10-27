@@ -244,6 +244,7 @@ vector<double> readProbabilities(string fileName)
 	{
 		ProbabilitySet[i] = ProbabilitySet[i] / totalSymbols;
 	}
+	symbolReader.close();
 
 	return ProbabilitySet;
 }
