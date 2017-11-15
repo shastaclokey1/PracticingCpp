@@ -12,24 +12,41 @@ using namespace std;
 
 
 
-vector<rAryHuffmanNode> createTree(string fileName, int radix);
+vector<rAryHuffmanNode> createTree(string fileName, int radix, bool distribution);
 void addEncoding(rAryHuffmanNode& n, vector<rAryHuffmanNode>& c, string code);
 vector<int> readSymbols(string fileName);
 vector<double> readProbabilities(string fileName);
 void sortVector(vector<rAryHuffmanNode>& algorithmVector);
+string encodeMessage(string wordToEncode, vector<rAryHuffmanNode> encodedTree);
+string searchEncodedTree(char letter, vector<rAryHuffmanNode> encodedTree);
+
+void swap(vector<rAryHuffmanNode>& target, int i, int j);
 
 
 int main()
 {
-	cout << "Enter the name of the text file you would like to Huffman encode(ex: butts.txt): ";
+	char probOrSample;
+	bool probabilityDistribution = false;
+	cout << "Huffman encode using sample text or probability distribuaion(enter p for probability dist/sample text is default): ";
+	cin >> probOrSample;
 	string txtFile;
-	cin >> txtFile;
+	if (probOrSample == 'p' || probOrSample == 'P')
+	{
+		cout << "Enter the name of the text file for your probability distribution(ex: butts.txt): ";
+		cin >> txtFile;
+		probabilityDistribution = true;
+	}
+	else
+	{
+		cout << "Enter the name of the text file you would like to use as your encoding sample text(ex: butts.txt): ";
+		cin >> txtFile;
+	}
 	cout << endl << "Enter the positive integer radix which you would like your Huffman encoding to utilize: ";
 	int radix;
 	cin >> radix;
 	cout << endl;
 
-	vector<rAryHuffmanNode> tree = createTree(txtFile, radix); //TODO: create function to generate huffman tree from input text file
+	vector<rAryHuffmanNode> tree = createTree(txtFile, radix, probabilityDistribution);
 	vector<rAryHuffmanNode> encodedTree; 
 	addEncoding(tree[0], encodedTree, "");
 	double ACWL = 0;
@@ -52,19 +69,107 @@ int main()
 	cout << "Average Code Word Length: " << ACWL << endl;
 	cout << "Entropy: " << entropy << endl;
 
-	while (true)
+	bool keepEncodingWords = true;
+	char yOrn;
+	string stringToEncode, codeForString, garbage, inputTextFile, outputTextFile;
+	int messageLength;
+	while (keepEncodingWords)
 	{
+		
+		/////////////////////////////encoding messages from keyboard input
+		stringToEncode = "";
+		garbage = "";
+		getline(cin, garbage);
+		cout << "Enter a message to encode with the previously generated optimal huffman code: ";
+		getline(cin, stringToEncode);
+		messageLength = stringToEncode.size();
+		codeForString = encodeMessage(stringToEncode, encodedTree);
+		cout << "Your encodded message is: " << codeForString << endl;
+		cout << "Your compression ratio is: " << codeForString.size() << "/" << messageLength*8 << endl;
+		////////////////////////////////encoding messages from file input
+		cout << "Enter the name of the text file you would like to encode using the huffman encoding generated above(example butts.txt): ";
+		cin >> inputTextFile;
+		cout << "Enter the name of the text file you would like to write your encoded text to(example wubalubadubdub.txt): ";
+		cin >> outputTextFile;
+		string codeToAppend,tempString;
+		ofstream outputFileStream;
 
+
+		ifstream symbolReader;
+		symbolReader.open(inputTextFile);
+		char currentSymbol;
+		if (symbolReader.fail())
+		{
+			cout << "Input file opening failed. \n";
+			exit(1);
+		}
+
+		outputFileStream.open(outputTextFile.c_str(), fstream::app);
+		while (!symbolReader.eof())
+		{
+			symbolReader.get(currentSymbol);
+			tempString = "";
+			codeToAppend = encodeMessage(tempString + currentSymbol, encodedTree);
+			outputFileStream.write(codeToAppend.c_str(), codeToAppend.size());
+			outputFileStream.flush();
+		}
+		outputFileStream.close();
+		symbolReader.close();
+
+		cout << "Encode another Message?(y/n): ";
+		cin >> yOrn;
+		if (yOrn == 'n' || yOrn == 'N')
+			keepEncodingWords = false;
 	}
+
+	cout << "Thank you for using huffman encoding! Press enter to exit.";
+
+	int gbg;
+
+	cin >> gbg;
 	
 	return 0;
 }
 
 
-vector<rAryHuffmanNode> createTree(string fileName, int radix)
+vector<rAryHuffmanNode> createTree(string fileName, int radix, bool distribution)
 {
-	vector<int> mainSymbolSet = readSymbols(fileName);
-	vector<double> mainProbabilitySet = readProbabilities(fileName);
+	vector<int> mainSymbolSet;
+	vector<double> mainProbabilitySet;
+	if (distribution == true)
+	{
+		ifstream symbolReader;
+		symbolReader.open(fileName);
+		char currentLetter,garbage;
+		string garbageString;
+		double currentProbability;
+		if (symbolReader.fail())
+		{
+			cout << "Input file opening failed. \n";
+			exit(1);
+		}
+
+		while (!symbolReader.eof())
+		{
+			symbolReader.get(currentLetter);
+			symbolReader.get(garbage);
+			mainSymbolSet.push_back(static_cast<int>(currentLetter));
+			symbolReader >> currentProbability;
+			if (!symbolReader)
+			{
+				cout << "Symbol reader failed to read probability. \n";
+				exit(1);
+			}
+			mainProbabilitySet.push_back(currentProbability);
+			getline(symbolReader, garbageString);
+		}
+		symbolReader.close();
+	}
+	else
+	{
+		mainSymbolSet = readSymbols(fileName);
+		mainProbabilitySet = readProbabilities(fileName);
+	}
 	vector<rAryHuffmanNode> algorithmVector;
 
 	for (int i = 0; i < static_cast<int>(mainSymbolSet.size()); i++)
@@ -251,21 +356,46 @@ vector<double> readProbabilities(string fileName)
 
 void sortVector(vector<rAryHuffmanNode>& algorithmVector)
 {
-	bool sorted = false;
-	rAryHuffmanNode temp;
-	while (sorted = false)
+	int minValInd;
+	for (int i = 0; i < algorithmVector.size() - 1; i++)
 	{
-		sorted = true;
-		for (int j = 1; j < static_cast<int>(algorithmVector.size()) - 1; j++)
-		{
-			if (algorithmVector[j - 1].getProb() > algorithmVector[j].getProb())
-			{
-				//time to swap
-				temp = algorithmVector[j - 1];
-				algorithmVector[j - 1] = algorithmVector[j];
-				algorithmVector[j] = temp;
-				sorted = false;
-			}
-		}
+		minValInd = i;
+		for (int j = i; j < algorithmVector.size(); j++)
+			if (algorithmVector[j].getProb() < algorithmVector[minValInd].getProb())
+				minValInd = j;
+		if (minValInd != i)
+			swap(algorithmVector, i, minValInd);
 	}
+	
+}
+
+string encodeMessage(string wordToEncode, vector<rAryHuffmanNode> encodedTree)
+{
+	string code = "";
+	for (int i = 0; i < wordToEncode.length(); i++)
+	{
+		code.append(searchEncodedTree(wordToEncode[i], encodedTree));
+	}
+	return code;
+}
+
+string searchEncodedTree(char letter, vector<rAryHuffmanNode> encodedTree)
+{
+	string codeWord = "error";
+	for (int i = 0; i < encodedTree.size(); i++)
+	{
+		if (letter == encodedTree[i].getSource())
+			codeWord = encodedTree[i].getEncoding();
+	}
+	return codeWord;
+}
+
+/*This function swaps two elements in a vector
+target -> Vector of interest
+i, j -> indicies for elements in target to swap*/
+void swap(vector<rAryHuffmanNode> &target, int i, int j)
+{
+	rAryHuffmanNode temp = target[i];
+	target[i] = target[j];
+	target[j] = temp;
 }
