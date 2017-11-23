@@ -1,0 +1,3470 @@
+Huffman encode using sample text or probability distribuaion(enter p for probability dist/sample text is default): j
+Enter the name of the text file you would like to use as your encoding sample text(ex: butts.txt): 001ssb.txt
+
+Enter the positive integer radix which you would like your Huffman encoding to utilize: 2
+
+Source symbol: ] Probability: 1.24386e-06
+Source symbol: X Probability: 1.86579e-06
+Source symbol: ` Probability: 1.86579e-06
+Source symbol: ) Probability: 4.35352e-06
+Source symbol: ( Probability: 4.97545e-06
+Source symbol: * Probability: 4.97545e-06
+Source symbol: ~ Probability: 4.97545e-06
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+78
+77
+2
+
+
+
+Source symbol: ` Probability: 1.86579e-06
+Source symbol:   Probability: 3.10966e-06
+Source symbol: ) Probability: 4.35352e-06
+Source symbol: * Probability: 4.97545e-06
+Source symbol: ~ Probability: 4.97545e-06
+Source symbol: ( Probability: 4.97545e-06
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: ) Probability: 4.35352e-06
+Source symbol: * Probability: 4.97545e-06
+Source symbol: ~ Probability: 4.97545e-06
+Source symbol: ( Probability: 4.97545e-06
+Source symbol:   Probability: 4.97545e-06
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: ~ Probability: 4.97545e-06
+Source symbol: ( Probability: 4.97545e-06
+Source symbol:   Probability: 4.97545e-06
+Source symbol:   Probability: 9.32897e-06
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 4.97545e-06
+Source symbol:   Probability: 9.32897e-06
+Source symbol:   Probability: 9.9509e-06
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 9.9509e-06
+Source symbol:   Probability: 1.43044e-05
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 2.42553e-05
+Source symbol: : Probability: 5.03764e-05
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: Q Probability: 6.59247e-05
+Source symbol: 8 Probability: 6.84124e-05
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol:   Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: 9 Probability: 7.02782e-05
+Source symbol: 7 Probability: 7.27659e-05
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol:   Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol:   Probability: 0.000134337
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: 0 Probability: 7.46317e-05
+Source symbol:   Probability: 7.46317e-05
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol:   Probability: 0.000134337
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol:   Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: 6 Probability: 7.71195e-05
+Source symbol: U Probability: 9.63993e-05
+Source symbol: 5 Probability: 0.000125008
+Source symbol:   Probability: 0.000134337
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol:   Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol:   Probability: 0.000149263
+Source symbol: 1 Probability: 0.000172897
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: 5 Probability: 0.000125008
+Source symbol:   Probability: 0.000134337
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol:   Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol:   Probability: 0.000149263
+Source symbol: 1 Probability: 0.000172897
+Source symbol:   Probability: 0.000173519
+Source symbol: ! Probability: 0.000206481
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: 4 Probability: 0.0001418
+Source symbol: 3 Probability: 0.000143044
+Source symbol:   Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol:   Probability: 0.000149263
+Source symbol: 1 Probability: 0.000172897
+Source symbol:   Probability: 0.000173519
+Source symbol: ! Probability: 0.000206481
+Source symbol:   Probability: 0.000259345
+Source symbol: ; Probability: 0.000276137
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000143044
+Source symbol: 2 Probability: 0.000146154
+Source symbol:   Probability: 0.000149263
+Source symbol: 1 Probability: 0.000172897
+Source symbol:   Probability: 0.000173519
+Source symbol: ! Probability: 0.000206481
+Source symbol:   Probability: 0.000259345
+Source symbol: ; Probability: 0.000276137
+Source symbol:   Probability: 0.000284844
+Source symbol: V Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000149263
+Source symbol: 1 Probability: 0.000172897
+Source symbol:   Probability: 0.000173519
+Source symbol: ! Probability: 0.000206481
+Source symbol:   Probability: 0.000259345
+Source symbol: ; Probability: 0.000276137
+Source symbol:   Probability: 0.000284844
+Source symbol: V Probability: 0.000289198
+Source symbol:   Probability: 0.000289198
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000173519
+Source symbol: ! Probability: 0.000206481
+Source symbol:   Probability: 0.000259345
+Source symbol: ; Probability: 0.000276137
+Source symbol:   Probability: 0.000284844
+Source symbol: V Probability: 0.000289198
+Source symbol:   Probability: 0.000289198
+Source symbol:   Probability: 0.00032216
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000259345
+Source symbol: ; Probability: 0.000276137
+Source symbol:   Probability: 0.000284844
+Source symbol: V Probability: 0.000289198
+Source symbol:   Probability: 0.000289198
+Source symbol:   Probability: 0.00032216
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol:   Probability: 0.00038
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000284844
+Source symbol: V Probability: 0.000289198
+Source symbol:   Probability: 0.000289198
+Source symbol:   Probability: 0.00032216
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol:   Probability: 0.00038
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000289198
+Source symbol:   Probability: 0.00032216
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol:   Probability: 0.00038
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: x Probability: 0.000365696
+Source symbol: z Probability: 0.000372537
+Source symbol:   Probability: 0.00038
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00038
+Source symbol: E Probability: 0.000420425
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: j Probability: 0.000458985
+Source symbol: F Probability: 0.00048635
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: K Probability: 0.000500033
+Source symbol: O Probability: 0.000506252
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000535483
+Source symbol:   Probability: 0.000574042
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: q Probability: 0.000587103
+Source symbol: - Probability: 0.000593944
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: G Probability: 0.000605761
+Source symbol:   Probability: 0.000611358
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.000738232
+Source symbol: P Probability: 0.000789853
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: Y Probability: 0.000790475
+Source symbol:   Probability: 0.000800425
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: C Probability: 0.000837741
+Source symbol:   Probability: 0.000945335
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00100628
+Source symbol: D Probability: 0.00102494
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: N Probability: 0.00110082
+Source symbol: J Probability: 0.00110393
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00110953
+Source symbol: ? Probability: 0.00112507
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: R Probability: 0.00112818
+Source symbol: M Probability: 0.00115866
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: B Probability: 0.00117234
+Source symbol:   Probability: 0.00118105
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00121712
+Source symbol: W Probability: 0.0014348
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00152808
+Source symbol: L Probability: 0.00158717
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0015909
+Source symbol: A Probability: 0.00168917
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00178308
+Source symbol:   Probability: 0.00203123
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00220475
+Source symbol:   Probability: 0.0022346
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00228684
+Source symbol:   Probability: 0.00235339
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: H Probability: 0.00236396
+Source symbol:   Probability: 0.00265191
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol:   Probability: 0.00464023
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: S Probability: 0.00279247
+Source symbol: ' Probability: 0.00282606
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol:   Probability: 0.00464023
+Source symbol:   Probability: 0.00501587
+Source symbol: v Probability: 0.00535047
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: I Probability: 0.00301761
+Source symbol:   Probability: 0.00311525
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol:   Probability: 0.00464023
+Source symbol:   Probability: 0.00501587
+Source symbol: v Probability: 0.00535047
+Source symbol:   Probability: 0.00561853
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00328006
+Source symbol: T Probability: 0.00364452
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol:   Probability: 0.00464023
+Source symbol:   Probability: 0.00501587
+Source symbol: v Probability: 0.00535047
+Source symbol:   Probability: 0.00561853
+Source symbol:   Probability: 0.00613286
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0038143
+Source symbol:   Probability: 0.00443934
+Source symbol:   Probability: 0.00464023
+Source symbol:   Probability: 0.00501587
+Source symbol: v Probability: 0.00535047
+Source symbol:   Probability: 0.00561853
+Source symbol:   Probability: 0.00613286
+Source symbol:   Probability: 0.00692458
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00464023
+Source symbol:   Probability: 0.00501587
+Source symbol: v Probability: 0.00535047
+Source symbol:   Probability: 0.00561853
+Source symbol:   Probability: 0.00613286
+Source symbol:   Probability: 0.00692458
+Source symbol:   Probability: 0.00825365
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: v Probability: 0.00535047
+Source symbol:   Probability: 0.00561853
+Source symbol:   Probability: 0.00613286
+Source symbol:   Probability: 0.00692458
+Source symbol:   Probability: 0.00825365
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol:   Probability: 0.0096561
+Source symbol: " Probability: 0.00996272
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00613286
+Source symbol:   Probability: 0.00692458
+Source symbol:   Probability: 0.00825365
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol:   Probability: 0.0096561
+Source symbol: " Probability: 0.00996272
+Source symbol:   Probability: 0.010969
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.00825365
+Source symbol: p Probability: 0.00843401
+Source symbol: k Probability: 0.00849869
+Source symbol:   Probability: 0.0096561
+Source symbol: " Probability: 0.00996272
+Source symbol:   Probability: 0.010969
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol:   Probability: 0.0130574
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: k Probability: 0.00849869
+Source symbol:   Probability: 0.0096561
+Source symbol: " Probability: 0.00996272
+Source symbol:   Probability: 0.010969
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol:   Probability: 0.0130574
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: " Probability: 0.00996272
+Source symbol:   Probability: 0.010969
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol:   Probability: 0.0130574
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: b Probability: 0.0113621
+Source symbol:
+ Probability: 0.0125444
+Source symbol:   Probability: 0.0130574
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0130574
+Source symbol: , Probability: 0.0130904
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: c Probability: 0.0131302
+Source symbol: f Probability: 0.015108
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: y Probability: 0.0153101
+Source symbol: . Probability: 0.0157062
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: g Probability: 0.0163064
+Source symbol:   Probability: 0.0166877
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: m Probability: 0.0169576
+Source symbol:   Probability: 0.0181548
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol:   Probability: 0.0329941
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: u Probability: 0.0184396
+Source symbol: w Probability: 0.0187686
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol:   Probability: 0.0329941
+Source symbol:   Probability: 0.0351124
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0209317
+Source symbol:   Probability: 0.0239064
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol:   Probability: 0.0329941
+Source symbol:   Probability: 0.0351124
+Source symbol:   Probability: 0.0372083
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0261479
+Source symbol:   Probability: 0.0282382
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol:   Probability: 0.0329941
+Source symbol:   Probability: 0.0351124
+Source symbol:   Probability: 0.0372083
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol:   Probability: 0.0448381
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0310163
+Source symbol: l Probability: 0.0319237
+Source symbol:   Probability: 0.0329941
+Source symbol:   Probability: 0.0351124
+Source symbol:   Probability: 0.0372083
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol:   Probability: 0.0448381
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0329941
+Source symbol:   Probability: 0.0351124
+Source symbol:   Probability: 0.0372083
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol:   Probability: 0.0448381
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0372083
+Source symbol: d Probability: 0.0399081
+Source symbol: i Probability: 0.0417272
+Source symbol:   Probability: 0.0448381
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: i Probability: 0.0417272
+Source symbol:   Probability: 0.0448381
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: s Probability: 0.047204
+Source symbol: r Probability: 0.0474247
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: n Probability: 0.0492868
+Source symbol: h Probability: 0.051708
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.054386
+Source symbol: o Probability: 0.0568694
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol: a Probability: 0.0594548
+Source symbol: t Probability: 0.0596388
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.111255
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0629401
+Source symbol:   Probability: 0.0681064
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.111255
+Source symbol:   Probability: 0.119094
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0771164
+Source symbol:   Probability: 0.0865654
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.111255
+Source symbol:   Probability: 0.119094
+Source symbol:   Probability: 0.131046
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.0946287
+Source symbol: e Probability: 0.095449
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.111255
+Source symbol:   Probability: 0.119094
+Source symbol:   Probability: 0.131046
+Source symbol:   Probability: 0.163682
+Source symbol:   Probability: 0.18385
+
+
+
+Source symbol:   Probability: 0.100995
+Source symbol:   Probability: 0.111255
+Source symbol:   Probability: 0.119094
+Source symbol:   Probability: 0.131046
+Source symbol:   Probability: 0.163682
+Source symbol:   Probability: 0.18385
+Source symbol:   Probability: 0.190078
+
+
+
+Source symbol:   Probability: 0.119094
+Source symbol:   Probability: 0.131046
+Source symbol:   Probability: 0.163682
+Source symbol:   Probability: 0.18385
+Source symbol:   Probability: 0.190078
+Source symbol:   Probability: 0.21225
+
+
+
+Source symbol:   Probability: 0.163682
+Source symbol:   Probability: 0.18385
+Source symbol:   Probability: 0.190078
+Source symbol:   Probability: 0.21225
+Source symbol:   Probability: 0.25014
+
+
+
+Source symbol:   Probability: 0.190078
+Source symbol:   Probability: 0.21225
+Source symbol:   Probability: 0.25014
+Source symbol:   Probability: 0.347532
+
+
+
+Source symbol:   Probability: 0.25014
+Source symbol:   Probability: 0.347532
+Source symbol:   Probability: 0.402328
+
+
+
+Source symbol:   Probability: 0.402328
+Source symbol:   Probability: 0.597672
+
+
+
+Source symbol:   Probability: 1
+
+
+
+Source symbol: s Probability: 0.047204 Encoding: 0000
+Source symbol: r Probability: 0.0474247 Encoding: 0001
+Source symbol: e Probability: 0.095449 Encoding: 001
+Source symbol: n Probability: 0.0492868 Encoding: 0100
+Source symbol: h Probability: 0.051708 Encoding: 0101
+Source symbol: I Probability: 0.00301761 Encoding: 01100000
+Source symbol: x Probability: 0.000365696 Encoding: 01100001000
+Source symbol: z Probability: 0.000372537 Encoding: 01100001001
+Source symbol: P Probability: 0.000789853 Encoding: 0110000101
+Source symbol: L Probability: 0.00158717 Encoding: 011000011
+Source symbol: Y Probability: 0.000790475 Encoding: 0110001000
+Source symbol: 6 Probability: 7.71195e-05 Encoding: 0110001001000
+Source symbol: U Probability: 9.63993e-05 Encoding: 0110001001001
+Source symbol: ! Probability: 0.000206481 Encoding: 011000100101
+Source symbol: E Probability: 0.000420425 Encoding: 01100010011
+Source symbol: A Probability: 0.00168917 Encoding: 011000101
+Source symbol: T Probability: 0.00364452 Encoding: 01100011
+Source symbol: , Probability: 0.0130904 Encoding: 011001
+Source symbol: c Probability: 0.0131302 Encoding: 011010
+Source symbol: f Probability: 0.015108 Encoding: 011011
+Source symbol: o Probability: 0.0568694 Encoding: 0111
+Source symbol: a Probability: 0.0594548 Encoding: 1000
+Source symbol: t Probability: 0.0596388 Encoding: 1001
+Source symbol: y Probability: 0.0153101 Encoding: 101000
+Source symbol: . Probability: 0.0157062 Encoding: 101001
+Source symbol: l Probability: 0.0319237 Encoding: 10101
+Source symbol: g Probability: 0.0163064 Encoding: 101100
+Source symbol: C Probability: 0.000837741 Encoding: 1011010000
+Source symbol: j Probability: 0.000458985 Encoding: 10110100010
+Source symbol: F Probability: 0.00048635 Encoding: 10110100011
+Source symbol: K Probability: 0.000500033 Encoding: 10110100100
+Source symbol: O Probability: 0.000506252 Encoding: 10110100101
+Source symbol: D Probability: 0.00102494 Encoding: 1011010011
+Source symbol: N Probability: 0.00110082 Encoding: 1011010100
+Source symbol: J Probability: 0.00110393 Encoding: 1011010101
+Source symbol: 5 Probability: 0.000125008 Encoding: 1011010110000
+Source symbol: Q Probability: 6.59247e-05 Encoding: 10110101100010
+Source symbol: 8 Probability: 6.84124e-05 Encoding: 10110101100011
+Source symbol: ; Probability: 0.000276137 Encoding: 101101011001
+Source symbol: 4 Probability: 0.0001418 Encoding: 1011010110100
+Source symbol: 3 Probability: 0.000143044 Encoding: 1011010110101
+Source symbol: V Probability: 0.000289198 Encoding: 101101011011
+Source symbol: ? Probability: 0.00112507 Encoding: 1011010111
+Source symbol: p Probability: 0.00843401 Encoding: 1011011
+Source symbol: m Probability: 0.0169576 Encoding: 101110
+Source symbol: k Probability: 0.00849869 Encoding: 1011110
+Source symbol: R Probability: 0.00112818 Encoding: 1011111000
+Source symbol: M Probability: 0.00115866 Encoding: 1011111001
+Source symbol: B Probability: 0.00117234 Encoding: 1011111010
+Source symbol: q Probability: 0.000587103 Encoding: 10111110110
+Source symbol: - Probability: 0.000593944 Encoding: 10111110111
+Source symbol: H Probability: 0.00236396 Encoding: 101111110
+Source symbol: G Probability: 0.000605761 Encoding: 10111111100
+Source symbol: 9 Probability: 7.02782e-05 Encoding: 10111111101000
+Source symbol: 7 Probability: 7.27659e-05 Encoding: 10111111101001
+Source symbol: 2 Probability: 0.000146154 Encoding: 1011111110101
+Source symbol: 0 Probability: 7.46317e-05 Encoding: 10111111101100
+Source symbol: ~ Probability: 4.97545e-06 Encoding: 10111111101101000
+Source symbol: ( Probability: 4.97545e-06 Encoding: 10111111101101001
+Source symbol: ` Probability: 1.86579e-06 Encoding: 101111111011010100
+Source symbol: ] Probability: 1.24386e-06 Encoding: 1011111110110101010
+Source symbol: X Probability: 1.86579e-06 Encoding: 1011111110110101011
+Source symbol: ) Probability: 4.35352e-06 Encoding: 101111111011010110
+Source symbol: * Probability: 4.97545e-06 Encoding: 101111111011010111
+Source symbol: : Probability: 5.03764e-05 Encoding: 101111111011011
+Source symbol: 1 Probability: 0.000172897 Encoding: 1011111110111
+Source symbol: W Probability: 0.0014348 Encoding: 1011111111
+Source symbol: u Probability: 0.0184396 Encoding: 110000
+Source symbol: w Probability: 0.0187686 Encoding: 110001
+Source symbol: d Probability: 0.0399081 Encoding: 11001
+Source symbol: i Probability: 0.0417272 Encoding: 11010
+Source symbol: " Probability: 0.00996272 Encoding: 1101100
+Source symbol: v Probability: 0.00535047 Encoding: 11011010
+Source symbol: S Probability: 0.00279247 Encoding: 110110110
+Source symbol: ' Probability: 0.00282606 Encoding: 110110111
+Source symbol: b Probability: 0.0113621 Encoding: 1101110
+Source symbol:
+ Probability: 0.0125444 Encoding: 1101111
+Source symbol:   Probability: 0.18385 Encoding: 111
+
+
+Average Code Word Length: 4.49963
+Entropy: 4.45646
+Enter a message to encode with the previously generated optimal huffman code: eeeeeee
+Your encodded message is: 001001001001001001001
+Your compression ratio is: 21/56
+Enter the name of the text file you would like to encode using the huffman encoding generated above(example butts.txt): butts.txt
+Enter the name of the text file you would like to write your encoded text to(example wubalubadubdub.txt): wub.txt
+Encode another Message?(y/n): y
+Enter a message to encode with the previously generated optimal huffman code: lkjjhlkguyfytdjrdxhgxhg
+Your encodded message is: 1010110111101011010001010110100010010110101101111010110011000010100001101110100010011100110110100010000111001011000010000101101100011000010000101101100
+Your compression ratio is: 151/184
+Enter the name of the text file you would like to encode using the huffman encoding generated above(example butts.txt): 002ssb.txt
+Enter the name of the text file you would like to write your encoded text to(example wubalubadubdub.txt): got2Huff.txt
+Encode another Message?(y/n):

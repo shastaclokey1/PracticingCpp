@@ -1,10 +1,7 @@
-﻿  stdafx.cpp
-  rAryHuffmanNode.cpp
-  HuffmanEncodingIsSuperSweet.cpp
-d:\occidental sr year\image processing\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(360): warning C4018: '<': signed/unsigned mismatch
-d:\occidental sr year\image processing\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(363): warning C4018: '<': signed/unsigned mismatch
-d:\occidental sr year\image processing\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(375): warning C4018: '<': signed/unsigned mismatch
-d:\occidental sr year\image processing\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(385): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  HuffmanEncodingIsSuperSweet.vcxproj -> D:\Occidental Sr Year\Image Processing\HuffmanEncodingIsSuperSweet\Debug\HuffmanEncodingIsSuperSweet.exe
-  HuffmanEncodingIsSuperSweet.vcxproj -> D:\Occidental Sr Year\Image Processing\HuffmanEncodingIsSuperSweet\Debug\HuffmanEncodingIsSuperSweet.pdb (Partial PDB)
+﻿  HuffmanEncodingIsSuperSweet.cpp
+c:\users\shasta\documents\repositories\practicingcpp\practicingcpp\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(387): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicingcpp\practicingcpp\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(390): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicingcpp\practicingcpp\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(402): warning C4018: '<': signed/unsigned mismatch
+c:\users\shasta\documents\repositories\practicingcpp\practicingcpp\huffmanencodingissupersweet\huffmanencodingissupersweet\huffmanencodingissupersweet.cpp(412): warning C4018: '<': signed/unsigned mismatch
+  HuffmanEncodingIsSuperSweet.vcxproj -> C:\Users\Shasta\Documents\Repositories\PracticingCpp\PracticingCpp\HuffmanEncodingIsSuperSweet\Debug\HuffmanEncodingIsSuperSweet.exe
+  HuffmanEncodingIsSuperSweet.vcxproj -> C:\Users\Shasta\Documents\Repositories\PracticingCpp\PracticingCpp\HuffmanEncodingIsSuperSweet\Debug\HuffmanEncodingIsSuperSweet.pdb (Partial PDB)

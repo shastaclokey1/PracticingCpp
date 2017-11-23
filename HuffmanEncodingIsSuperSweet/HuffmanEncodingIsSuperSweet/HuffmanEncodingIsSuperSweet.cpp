@@ -91,7 +91,7 @@ int main()
 		cin >> inputTextFile;
 		cout << "Enter the name of the text file you would like to write your encoded text to(example wubalubadubdub.txt): ";
 		cin >> outputTextFile;
-		string codeToAppend,tempString;
+		string codeToAppend = "",tempString = "";
 		ofstream outputFileStream;
 
 
@@ -105,14 +105,41 @@ int main()
 		}
 
 		outputFileStream.open(outputTextFile.c_str(), fstream::app);
+
+		//put encoding alphabet at the top of the file to write to 
+		for (int i = 0; i < static_cast<int>(encodedTree.size()); i++)
+		{
+			outputFileStream.write("\n", string("\n").size());
+			outputFileStream.write("Source symbol: ", string("Source symbol: ").size());
+			tempString.push_back(encodedTree[i].getSource());
+			outputFileStream.write(tempString.c_str(), tempString.size());
+			tempString = "";
+			outputFileStream.write(" Probability: ", string(" Probability: ").size());
+			outputFileStream.write(to_string(encodedTree[i].getProb()).c_str(), to_string(encodedTree[i].getProb()).size());
+			outputFileStream.write(" Encoding: ", string(" Encoding: ").size());
+			outputFileStream.write(encodedTree[i].getEncoding().c_str(), encodedTree[i].getEncoding().size());
+		}
+		outputFileStream.write("\n", string("\n").size());
+		outputFileStream.write("\n", string("\n").size());
+
+
+		int sizeOfMessage = 0, sizeOfExtAsciiMessage = 0;
 		while (!symbolReader.eof())
 		{
 			symbolReader.get(currentSymbol);
 			tempString = "";
 			codeToAppend = encodeMessage(tempString + currentSymbol, encodedTree);
+			sizeOfMessage += codeToAppend.size();
+			sizeOfExtAsciiMessage += 8;
 			outputFileStream.write(codeToAppend.c_str(), codeToAppend.size());
 			outputFileStream.flush();
 		}
+		outputFileStream.write("\n", string("\n").size());
+		outputFileStream.write("\n", string("\n").size());
+		outputFileStream.write("Compression Ratio: ", string("Compression Ratio: ").size());
+		outputFileStream.write(to_string(sizeOfMessage).c_str(), to_string(sizeOfMessage).size());
+		outputFileStream.write("/", string("/").size());
+		outputFileStream.write(to_string(sizeOfExtAsciiMessage).c_str(), to_string(sizeOfExtAsciiMessage).size());
 		outputFileStream.close();
 		symbolReader.close();
 

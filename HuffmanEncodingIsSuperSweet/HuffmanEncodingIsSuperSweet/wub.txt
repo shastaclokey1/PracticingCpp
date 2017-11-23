@@ -1,0 +1,84 @@
+
+Source symbol: s Probability: 0.047204 Encoding: 0000
+Source symbol: r Probability: 0.047425 Encoding: 0001
+Source symbol: e Probability: 0.095449 Encoding: 001
+Source symbol: n Probability: 0.049287 Encoding: 0100
+Source symbol: h Probability: 0.051708 Encoding: 0101
+Source symbol: I Probability: 0.003018 Encoding: 01100000
+Source symbol: x Probability: 0.000366 Encoding: 01100001000
+Source symbol: z Probability: 0.000373 Encoding: 01100001001
+Source symbol: P Probability: 0.000790 Encoding: 0110000101
+Source symbol: L Probability: 0.001587 Encoding: 011000011
+Source symbol: Y Probability: 0.000790 Encoding: 0110001000
+Source symbol: 6 Probability: 0.000077 Encoding: 0110001001000
+Source symbol: U Probability: 0.000096 Encoding: 0110001001001
+Source symbol: ! Probability: 0.000206 Encoding: 011000100101
+Source symbol: E Probability: 0.000420 Encoding: 01100010011
+Source symbol: A Probability: 0.001689 Encoding: 011000101
+Source symbol: T Probability: 0.003645 Encoding: 01100011
+Source symbol: , Probability: 0.013090 Encoding: 011001
+Source symbol: c Probability: 0.013130 Encoding: 011010
+Source symbol: f Probability: 0.015108 Encoding: 011011
+Source symbol: o Probability: 0.056869 Encoding: 0111
+Source symbol: a Probability: 0.059455 Encoding: 1000
+Source symbol: t Probability: 0.059639 Encoding: 1001
+Source symbol: y Probability: 0.015310 Encoding: 101000
+Source symbol: . Probability: 0.015706 Encoding: 101001
+Source symbol: l Probability: 0.031924 Encoding: 10101
+Source symbol: g Probability: 0.016306 Encoding: 101100
+Source symbol: C Probability: 0.000838 Encoding: 1011010000
+Source symbol: j Probability: 0.000459 Encoding: 10110100010
+Source symbol: F Probability: 0.000486 Encoding: 10110100011
+Source symbol: K Probability: 0.000500 Encoding: 10110100100
+Source symbol: O Probability: 0.000506 Encoding: 10110100101
+Source symbol: D Probability: 0.001025 Encoding: 1011010011
+Source symbol: N Probability: 0.001101 Encoding: 1011010100
+Source symbol: J Probability: 0.001104 Encoding: 1011010101
+Source symbol: 5 Probability: 0.000125 Encoding: 1011010110000
+Source symbol: Q Probability: 0.000066 Encoding: 10110101100010
+Source symbol: 8 Probability: 0.000068 Encoding: 10110101100011
+Source symbol: ; Probability: 0.000276 Encoding: 101101011001
+Source symbol: 4 Probability: 0.000142 Encoding: 1011010110100
+Source symbol: 3 Probability: 0.000143 Encoding: 1011010110101
+Source symbol: V Probability: 0.000289 Encoding: 101101011011
+Source symbol: ? Probability: 0.001125 Encoding: 1011010111
+Source symbol: p Probability: 0.008434 Encoding: 1011011
+Source symbol: m Probability: 0.016958 Encoding: 101110
+Source symbol: k Probability: 0.008499 Encoding: 1011110
+Source symbol: R Probability: 0.001128 Encoding: 1011111000
+Source symbol: M Probability: 0.001159 Encoding: 1011111001
+Source symbol: B Probability: 0.001172 Encoding: 1011111010
+Source symbol: q Probability: 0.000587 Encoding: 10111110110
+Source symbol: - Probability: 0.000594 Encoding: 10111110111
+Source symbol: H Probability: 0.002364 Encoding: 101111110
+Source symbol: G Probability: 0.000606 Encoding: 10111111100
+Source symbol: 9 Probability: 0.000070 Encoding: 10111111101000
+Source symbol: 7 Probability: 0.000073 Encoding: 10111111101001
+Source symbol: 2 Probability: 0.000146 Encoding: 1011111110101
+Source symbol: 0 Probability: 0.000075 Encoding: 10111111101100
+Source symbol: ~ Probability: 0.000005 Encoding: 10111111101101000
+Source symbol: ( Probability: 0.000005 Encoding: 10111111101101001
+Source symbol: ` Probability: 0.000002 Encoding: 101111111011010100
+Source symbol: ] Probability: 0.000001 Encoding: 1011111110110101010
+Source symbol: X Probability: 0.000002 Encoding: 1011111110110101011
+Source symbol: ) Probability: 0.000004 Encoding: 101111111011010110
+Source symbol: * Probability: 0.000005 Encoding: 101111111011010111
+Source symbol: : Probability: 0.000050 Encoding: 101111111011011
+Source symbol: 1 Probability: 0.000173 Encoding: 1011111110111
+Source symbol: W Probability: 0.001435 Encoding: 1011111111
+Source symbol: u Probability: 0.018440 Encoding: 110000
+Source symbol: w Probability: 0.018769 Encoding: 110001
+Source symbol: d Probability: 0.039908 Encoding: 11001
+Source symbol: i Probability: 0.041727 Encoding: 11010
+Source symbol: " Probability: 0.009963 Encoding: 1101100
+Source symbol: v Probability: 0.005350 Encoding: 11011010
+Source symbol: S Probability: 0.002792 Encoding: 110110110
+Source symbol: ' Probability: 0.002826 Encoding: 110110111
+Source symbol: b Probability: 0.011362 Encoding: 1101110
+Source symbol: 
+ Probability: 0.012544 Encoding: 1101111
+Source symbol:   Probability: 0.183850 Encoding: 111
+
+110111011000010011001000011111011101100001001100100001111101110110000100110010000111110111011000010011001000011110000001001111110111011000010011001000011111011100010110101000110000000000111111011101100001001100100001110110101000010011111011101100001001100111111011101100001001111110111011000010011001000011101101010000100010001111001111001100010011111011011110100011110111010011110001110110101010101111100001100110100011101100011010111000000010000110011000101000101001011000100101011000100101011000100101
+
+Compression Ratio: 504/848
